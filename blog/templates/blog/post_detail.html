@@ -27,8 +27,8 @@
    <a class="btn btn-default" href="{%url 'comment_remove' pk=comment.pk%}"><span class="glyphicon glyphicon-remove"></span></a>
    <a class="btn btn-primary" href="{%url 'comment_approve' pk=comment.pk%}"><span class="glyphicon glyphicon-ok"></span></a>
        {%endif%}
-   <p>{{comments.text|safe|linebreaks}}</p>
-   <p>Posted By: {{comment.author}}</p>
+   <p>{{comment.text|safe|linebreaks}}
+     Posted By: {{comment.author}}</p>
     {%endif%}
 {%empty%}
    <p>No Comments!</p>
