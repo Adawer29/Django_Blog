@@ -25,7 +25,7 @@ SECRET_KEY = 'lk)b5a!5#&qysc(thu0-x+rxqo4$5cmm$u$$&e*x4vme+zey!m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tranquil-beyond-18851.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
